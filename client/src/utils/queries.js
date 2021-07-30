@@ -1,4 +1,5 @@
-mport { gql } from '@apollo/client';
+// apollo import
+import { gql } from '@apollo/client';
 
 export const GET_ME = gql`
     {
