@@ -55,7 +55,7 @@ const SignupForm = () => {
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
         {/* show alert if server response is bad */}
         <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
-          Something went wrong with your signup!
+        Hm.. Something isn't right!🤔
         </Alert>
 
         <Form.Group>
@@ -75,26 +75,26 @@ const SignupForm = () => {
           <Form.Label htmlFor='email'>Email</Form.Label>
           <Form.Control
             type='email'
-            placeholder='Your email address'
+            placeholder='email'
             name='email'
             onChange={handleInputChange}
             value={userFormData.email}
             required
           />
-          <Form.Control.Feedback type='invalid'>Email is required!</Form.Control.Feedback>
+          <Form.Control.Feedback type='invalid'>You NEED an Email for that!</Form.Control.Feedback>
         </Form.Group>
 
         <Form.Group>
           <Form.Label htmlFor='password'>Password</Form.Label>
           <Form.Control
             type='password'
-            placeholder='Your password'
+            placeholder='password'
             name='password'
             onChange={handleInputChange}
             value={userFormData.password}
             required
           />
-          <Form.Control.Feedback type='invalid'>Password is required!</Form.Control.Feedback>
+          <Form.Control.Feedback type='invalid'>You NEED a Password for that!</Form.Control.Feedback>
         </Form.Group>
         <Button
           disabled={!(userFormData.username && userFormData.email && userFormData.password)}
