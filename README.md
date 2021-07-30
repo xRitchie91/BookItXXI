@@ -9,14 +9,14 @@ BookIt is a book search application that allows users to search new and save boo
 - [Questions](#Questions)
 
 ## Deployment
-[Heroku]()
+[Heroku](https://book-it-rpo.herokuapp.com/)
 
 ## Screenshots
 
 ## Contributors
-[Ritchie](https://www.github.com/xRitchie91)
-[Lacey](https://www.githubs.com/lacey-griffith)
-[Kyle](https://www.githubs.com/kjmckinley)
+- [Ritchie](https://www.github.com/xRitchie91)
+- [Lacey](https://www.githubs.com/lacey-griffith)
+- [Kyle](https://www.githubs.com/kjmckinley)
 
 ## Questions
 Reach out to me [here](https://www.github.com/xRitchie91)
